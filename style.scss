@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+body {
+  padding: 25px;
+  background-color: #fbb03b;
+
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  label {
+    span {
+      text-decoration-line: underline;
+      text-decoration-style: solid;
+    }
+  }
+}
+
+.hamburger {
+  text-align: right;
+
+  .menu {
+  width: 50px;
+  }
+}
+
+.form-control, .form-check-input {
+  border: 1px solid #b19a80;
+  font-size: 13px;
+}
+
+h1 {
+  font-family: 'PT Serif', serif;
+  font-size: 22px;
+  text-align: right;
+}
+
+.form-control{
+  max-width: 600px;
+  height: 60px;
+  align-self: center;
+}
+
+.form-check-input {
+  width: 20px; height: 20px;
+  margin: auto 0;
+}
+
+.coloredText {
+  color: #138073;
+}
+
+div.form-check {
+  display: flex;
+  gap: 20px;
+  padding-left: 0;
+  justify-content: flex-start;
+  .form-check-input {
+    flex-shrink: 0;
+    margin-left: 0;
+  }
+}
+
+.submitButton{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.btn {
+  width: 300px;
+  height: 60px;
+  outline: 1px solid white;
+  background-color: #39b69f;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+@media (min-width: 463px) { 
+  h1 {
+    text-align: center;
+  }
+  div.form-check {
+    justify-content: center;
+  }
+}
