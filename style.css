@@ -15,11 +15,8 @@ body {
   gap: 25px;
 }
 
-.wrapper label span {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-  -webkit-text-decoration-style: solid;
-          text-decoration-style: solid;
+.wrapper label a {
+  color: #138073;
 }
 
 .hamburger {

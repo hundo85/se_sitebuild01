@@ -12,9 +12,8 @@ body {
   gap: 25px;
 
   label {
-    span {
-      text-decoration-line: underline;
-      text-decoration-style: solid;
+    a {
+      color: #138073;
     }
   }
 }
@@ -69,6 +68,7 @@ div.form-check {
   justify-content: center;
   margin: 20px;
 }
+
 .btn {
   width: 300px;
   height: 60px;
